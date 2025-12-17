@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>البث المباشر</title>
+
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+#player {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+}
+
+iframe, video {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+</style>
+</head>
+
+<body>
+
+<div id="player">
+  <!-- ضع رابط البث هنا -->
+  <iframe
+    src="PUT_PLAYER_LINK_HERE"
+    allowfullscreen
+    allow="autoplay; encrypted-media; picture-in-picture">
+  </iframe>
+</div>
+
+</body>
+</html>
